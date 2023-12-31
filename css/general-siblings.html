@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>General and Adjacent Siblings Selectors</title>
+    <style>
+        div~p{
+            color: blue;
+        }
+        div+p{
+            font-weight: bold;
+        }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quos,
+        error sapiente vitae quasi sit optio laboriosam eos cum? Quas, eligendi
+        deserunt aperiam tempora asperiores porro et officiis neque rem?
+      </p>
+      <div>
+        <p>
+            paragraph inside div.
+        </p>
+      </div>
+      <p>
+        paragraph1 outside div.
+      </p>
+      <p>
+        paragraph2 outside div.
+      </p>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+types of stylesheet
+    1. inline stylesheet
+    2. internal stylesheet
+    3. external stylesheet
+
+style rules 
+selector{
+    property:value;
+    declarations;
+    declarations;
+    declarations;
+}
+
+element, attributes, value
+h1 align = "center"
+
+selector 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uniersal selector</title>
+    <style>
+      #second{
+        background-color: black;
+        color: white;
+      }
+      .bg-blue{
+        background-color: blue;
+      }
+      .text-white{
+        color: white;
+      }
+      [class]{
+        /* text-align: left (default), right, center, justify; */
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p class="bg-blue text-white">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, facere!
+        Quod repudiandae fugit praesentium fugiat distinctio itaque, et rerum
+        cupiditate! Commodi omnis qui quos, veritatis porro facilis dolorem
+        reprehenderit esse?
+      </p>
+      <p id="second">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, facere!
+        Quod repudiandae fugit praesentium fugiat distinctio itaque, et rerum
+        cupiditate! Commodi omnis qui quos, veritatis porro facilis dolorem
+        reprehenderit esse?
+      </p>
+      <p class="bg-blue text-white">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, facere!
+        Quod repudiandae fugit praesentium fugiat distinctio itaque, et rerum
+        cupiditate! Commodi omnis qui quos, veritatis porro facilis dolorem
+        reprehenderit esse?
+      </p>
+      <button class="bg-blue text-white">Click Me!</button>
+    </div>
+  </body>
+</html>
